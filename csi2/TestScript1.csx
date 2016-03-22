@@ -1,7 +1,7 @@
-﻿using csi2;
+﻿using Csi2;
 using System;
 
-if (ScriptUtil.IsInMainFile())
+if (ScriptContext.IsInMainFile())
 {
     Console.WriteLine("from TestScript1.csx");
 }
